@@ -1,0 +1,70 @@
+body {
+  background-repeat: no-repeat;
+  width: 100%;
+  margin: auto;
+  background-size: cover;
+  background: -webkit-linear-gradient(left,  #0f182b 0%,#2a3b53 33%,#2a3b53 66%,#0f182b 100%);
+
+}
+.calculator {
+  width: 340px;
+  height: 590px;
+  border: 1px solid black;
+  margin:  50px auto;
+  border-radius: 10px;
+  background-image: 
+    -webkit-repeating-linear-gradient(left, hsla(0,0%,100%,0) 0%, hsla(0,0%,100%,0) 6%, hsla(0,0%,100%, .1) 7.5%), 
+    -webkit-repeating-linear-gradient(left, hsla(0,0%, 0%,0) 0%, hsla(0,0%, 0%,0) 4%, hsla(0,0%, 0%,.03) 4.5%), 
+    -webkit-repeating-linear-gradient(left, hsla(0,0%,100%,0) 0%, hsla(0,0%,100%,0) 1.2%, hsla(0,0%,100%,.15) 2.2%), linear-gradient(180deg, hsl(0,0%,78%) 0%, hsl(0,0%,90%) 47%, hsl(0,0%,78%) 53%, hsl(0,0%,70%)100%);
+  box-shadow: 0 0 10px black;
+  
+}
+
+.logo {
+  width: 90%;
+  padding-top: 10px;
+  padding-left: 28px;
+  margin: auto;
+}
+.display {
+  width: 86%;
+  height: 105px;
+  margin:20px 0px 0px 20px;
+  padding-right:9px;
+  background:black;
+  text-align:right;
+  border-radius:6px;
+  border:2px ridge grey;
+  font-size:40px;
+  color: red;
+  font-family: 'Share Tech Mono', monospace;
+}
+.display:focus {
+	outline:none;
+}
+.buttons{
+  margin: 5% 5% auto;
+  margin-bottom: 5%;
+}
+.buttons button:active {
+	color:#FFF;
+}
+button {
+  width: 65px;
+  height: 65px;
+  padding: 10px 10px 10px 8px;
+  border-radius: 8%;
+  font-size: 32px;
+  margin: 4px;
+  
+}
+button:focus {
+	outline:none;
+}
+#zero {
+  width: 142px;
+}
+
+#zero:hover, .digit:hover, #minus:hover, #plus:hover, #multiply:hover, #divide:hover, #clear:hover, #backspace:hover, #change-sign:hover, #equal:hover {
+  background-color: darkgray;
+}
